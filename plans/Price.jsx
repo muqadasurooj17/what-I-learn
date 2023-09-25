@@ -12,7 +12,6 @@ const Container = styled.div`
     flex-direction: column;
   }
 `;
-
 const Price = () => {
   return (
     <Container>
