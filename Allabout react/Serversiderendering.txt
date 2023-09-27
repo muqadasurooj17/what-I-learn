@@ -1,0 +1,13 @@
+We import the express, React, and ReactDOMServer modules.
+
+We create an Express application.
+
+We define a simple React component called HelloWorld that we want to render on the server.
+
+We set up an Express route at the root URL ('/') to render the HelloWorld component using ReactDOMServer.renderToString.
+
+We send the HTML containing the rendered component as the response to the client.
+This example demonstrates a basic server-side rendering setup with React and Express. 
+The ReactDOMServer.renderToString function is used to render the React component on the server and send 
+it as part of the server's response. In a real-world scenario, you would typically render more complex 
+components and fetch data from APIs to provide dynamic content.
