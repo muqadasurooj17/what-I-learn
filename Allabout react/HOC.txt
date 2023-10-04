@@ -6,4 +6,9 @@ Separation of concerns:
 HOCs can help separate concerns in your code by encapsulating certain functionality in a separate component. This can make the code easier to read and maintain.
 Composition:
  HOCs can be composed together to create more complex functionality. This allows you to build up functionality from smaller, reusable pieces.
-Higher-order components can be used to implement cross-cutting concerns in your application such as authentication, error handling, logging, performance tracking, and many other features.
+Higher-order components can be used to implement cross-cutting concerns in your application such as authentication, error handling, logging, performance tracking, and many 
+other features.
+
+
+Finally, return the new component. The HOC function should return the NewComponent so it can be used in the application.
+Next, you pass props to the WrappedComponent. In the render() method of the NewComponent, pass all the props (including the additional props added by the HOC) to the WrappedComponent.
