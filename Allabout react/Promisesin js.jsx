@@ -15,6 +15,9 @@ let myPromise = new Promise(function(myResolve, myReject) {
         document.getElementById("demo").innerHTML = some;
       }
       
+
+
+      
       let myPromise = new Promise(function(myResolve, myReject) {
         let x = 0;
       
@@ -31,8 +34,6 @@ let myPromise = new Promise(function(myResolve, myReject) {
         function(value) {myDisplayer(value);},
         function(error) {myDisplayer(error);}
       );
-
-
       function myDisplayer(some) {
         document.getElementById("demo").innerHTML = some;
       }
