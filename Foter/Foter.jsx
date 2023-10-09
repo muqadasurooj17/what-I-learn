@@ -7,6 +7,8 @@ import{FaLinkedin} from "react-icons/fa";
 const Footer = () => {
   return (
     <>
+
+      
     <Navbar/>
       <footer>
         <div className="container">
@@ -96,6 +98,8 @@ const Footer = () => {
         </div>
       </footer>
     </>
+
+    
   );
 };
 
